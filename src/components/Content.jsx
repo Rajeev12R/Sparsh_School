@@ -168,8 +168,12 @@ const Content = () => {
     </div>
   </div>
 
+  {/* <div className="searchbar h-10 flex items-center mt-2 justify-center">
+          <input type="search" name="" id="" placeholder="Search Any Keyword" className="py-2 px-4 w-full text-stone-700 h-full border-none outline-none hover:outline-stone-600 rounded-lg"/>
+  </div> */}
+
   {/* Feed */}
-  <div className="h-[50%] w-full bg-white mt-4 p-4 flex flex-col overflow-auto">
+  <div className="h-[50%] w-full bg-white mt-2 p-4 flex flex-col overflow-auto">
             <h3 className="bg-blue-600 text-base text-center py-2">Feed</h3>
             <div className="mt-2 space-y-4 h-96 overflow-y-auto">
               <div className="bg-gray-200 p-4 rounded-lg shadow-lg">

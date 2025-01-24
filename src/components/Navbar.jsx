@@ -65,49 +65,42 @@ const Navbar = ({ onNavClick }) => {
               <a
                 href="#"
                 onClick={() => onNavClick("school-profile")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 School Profile
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("school-information")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 School Information
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-team")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 About Our Principal
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("affiliation-status")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Affiliation Status
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("our-mission")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
-              >
-                Our Mission
-              </a>
-              <a
-                href="#"
-                onClick={() => onNavClick("our-mission")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Our Mission
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Additional Information
               </a>
@@ -116,7 +109,7 @@ const Navbar = ({ onNavClick }) => {
           <div className="relative group flex items-center z-50">
             <a
               href="#"
-              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:py-3 text-xs md:text-sm rounded-md"
+              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
             >
               Academics
             </a>
@@ -124,14 +117,14 @@ const Navbar = ({ onNavClick }) => {
               <a
                 href="#"
                 onClick={() => onNavClick("about-mission")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Workshops & Events/Seminars
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-vision")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Teaching Methodology
               </a>
@@ -141,7 +134,7 @@ const Navbar = ({ onNavClick }) => {
           <div className="relative group flex items-center z-50">
             <a
               href="#"
-              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
             >
               Infrastructure
             </a>
@@ -149,42 +142,42 @@ const Navbar = ({ onNavClick }) => {
               <a
                 href="#"
                 onClick={() => onNavClick("about-mission")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                 Auditorium
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-vision")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                 Library
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-team")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                 Computer Lab
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-team")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                Science & Mathematics Lab
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-team")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                Sports Complex
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-team")}
-                className="hover:bg-gray-100 px-4 py-2 border-b-2 border"
+                className="hover:bg-gray-200 px-4 py-2 border-b-2 border"
               >
                Other Facilities
               </a>
@@ -193,32 +186,32 @@ const Navbar = ({ onNavClick }) => {
 
           <a
             href="#"
-            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
           >
             Achievements
           </a>
           <a
             href="#"
-            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
           >
             Photo Gallery
           </a>
           <a
             href="#"
-            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
           >
             School News
           </a>
           <a
             href="#"
-            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+            className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
           >
             Career
           </a>
           <div className="relative group flex items-center z-50">
             <a
               href="#"
-              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md"
+              className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 text-xs md:text-sm rounded-md"
             >
               Uniform
             </a>
@@ -226,14 +219,14 @@ const Navbar = ({ onNavClick }) => {
               <a
                 href="#"
                 onClick={() => onNavClick("about-mission")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Boys Outfit
               </a>
               <a
                 href="#"
                 onClick={() => onNavClick("about-vision")}
-                className="hover:bg-[rgb(40,88,37)] px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
+                className="hover:bg-gray-200 px-2 py-2 md:px-4 md:py-2 text-sm rounded-md border-b-2 border"
               >
                 Girls Outfit
               </a>

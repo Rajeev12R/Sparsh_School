@@ -43,7 +43,7 @@ const Content = () => {
     <div className="flex items-start justify-center w-full h-screen text-white gap-32 md:max-w-screen-lg rounded-b-lg mx-auto">
       <div className="flex w-full mt-4 gap-2">
         {/* Left side content */}
-        <div className="w-[70%] flex flex-col h-full">
+        <div className="w-[70%] pl-3 md:pl-2 flex flex-col h-full">
           <div className="slideshow w-full bg-green-100 h-[400px] relative overflow-hidden rounded-lg">
             <img
               src={images[currentIndex]}
@@ -78,7 +78,7 @@ const Content = () => {
           </div>
 
           <div className="content flex text-black my-8 gap-2 justify-between">
-            <div className="flex-1 pl-3 md:pl-2 text-justify">
+            <div className="flex-1 text-justify">
               <h1
                 className="text-lg text-lime-600 uppercase"
                 style={{ wordSpacing: 1 }}

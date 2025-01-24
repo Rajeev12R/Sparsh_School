@@ -23,7 +23,7 @@ const Navbar = ({ onNavClick }) => {
               </h2>
             </div>
           </div>
-          <div className="flex flex-col mt-4 md:mt-0">
+          <div className="flex flex-col mt-4 md:mt-2">
             <div className="flex flex-wrap gap-3 my-2 md:my-4 text-xs md:text-sm text-gray-500 justify-center">
               <a href="#" onClick={() => onNavClick("home")}>Home</a>
               <a href="#" onClick={() => onNavClick("school-profile")}>About Us</a>

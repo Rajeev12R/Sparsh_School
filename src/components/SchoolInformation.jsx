@@ -75,10 +75,10 @@ const SchoolInformation = () => {
       <div className="flex items-start justify-center w-full h-screen text-white gap-32 md:max-w-screen-lg rounded-b-lg mx-auto">
         <div className="flex w-full mt-4 gap-2">
           {/* Left side content */}
-          <div className="w-[70%] flex text-sm leading-6 flex-col h-full">
+          <div className="w-[70%] flex flex-wrap text-sm leading-6 flex-col h-full">
             <div className="flex-1 text-justify">
               <h1
-                className="text-lg text-lime-600 mt-4 uppercase"
+                className="text-lg text-lime-600 mt-4 pl-3 md:pl-2  uppercase"
                 style={{ wordSpacing: 1 }}
               >
                 Public Disclosure
@@ -86,14 +86,14 @@ const SchoolInformation = () => {
               <hr />
               <iframe
                 src="https://www.aeee.in/wp-content/uploads/2020/08/Sample-pdf.pdf"
-                className="w-full h-screen mt-8 block border-none"
+                className="w-full h-screen mt-8 pl-3 md:pl-2 block border-none"
                 title="Mandatory Document 2024"
               />
             </div>
           </div>
 
           {/* Right side content */}
-          <div className="w-[30%] h-full flex flex-col">
+          <div className="w-[30%] pr-3 md:pr-2 h-full flex flex-col">
             <div className="h-full w-full bg-white p-4 flex flex-col">
               <h3 className="bg-green-600 text-base text-center py-2">
                 Announcements

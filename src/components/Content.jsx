@@ -78,7 +78,7 @@ const Content = () => {
           </div>
 
           <div className="content flex text-black my-8 gap-2 justify-between">
-            <div className="flex-1 text-justify">
+            <div className="flex-1 pl-3 md:pl-2 text-justify">
               <h1
                 className="text-lg text-lime-600 uppercase"
                 style={{ wordSpacing: 1 }}
@@ -99,21 +99,21 @@ const Content = () => {
                 to be compassionate, responsible citizens who are ready to make
                 an impact on the world. With a rapidly growing community, Sparsh
                 World School is poised to become a beacon of learning and a
-                symbol of progress in the region. [ +more ]
+                symbol of progress in the region.
               </p>
             </div>
-            <div className="flex-1 justify-center">
+            <div className="flex-1 px-3 md:px-2 justify-center">
               <h1
                 className="text-lg text-center text-lime-600 uppercase"
                 style={{ wordSpacing: 1 }}
               >
                 News & Events
               </h1>
-              <div className="mt-2 p-4 space-y-4">
+              <div className=" flex flex-col mt-2 p-4 space-y-4">
                 {newsEvents.map((item, index) => (
                   <div
                     key={index}
-                    className="flex justify-between p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                    className="flex gap-2 md:gap-3 flex-wrap justify-between p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                   >
                     <span className="font-semibold text-gray-800">
                       {item.date}
@@ -127,7 +127,7 @@ const Content = () => {
         </div>
 
 {/* Right side content */}
-<div className="w-[30%] h-full flex flex-col">
+<div className="w-[30%] pr-3 md:pr-2 h-full flex flex-col">
   <div className="h-full w-full bg-white p-4 flex flex-col">
     <h3 className="bg-green-600 text-base text-center py-2">Announcements</h3>
     <div className="mt-2 space-y-4 h-80 overflow-y-auto">

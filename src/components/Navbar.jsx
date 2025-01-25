@@ -14,11 +14,11 @@ const Navbar = ({ onNavClick }) => {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="flex flex-col text-center md:text-left md:py-2">
+            <div className="name flex flex-col text-center md:text-left md:py-2">
               <h2 className="text-lg md:text-xl text-green-600 font-bold uppercase">
                 Sparsh World School
               </h2>
-              <h2 className="text-md md:text-xl md:hidden lg:block text-amber-500 font-bold uppercase">
+              <h2 className="name text-md md:text-xl md:hidden lg:block text-amber-500 font-bold uppercase">
                 Suratgarh, Rajasthan
               </h2>
             </div>

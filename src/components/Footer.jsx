@@ -11,8 +11,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-100 py-4 mt-56">
-      <div className="container mx-auto text-center">
-        <ul className="flex justify-center space-x-4 text-gray-600 text-sm mb-4">
+      <div className="container px-2 md:px-3 flex flex-col flex-wrap mx-auto text-center">
+        <ul className="flex justify-center gap-3 md:gap-4 text-gray-600 text-xs md:text-sm mb-4">
           <li>
             <button
               onClick={scrollToHome}
